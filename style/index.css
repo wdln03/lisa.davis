@@ -1,0 +1,58 @@
+body {
+    background-image: url('../images/hero4.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 120vh;
+    overflow: hidden;
+}
+
+main p {
+    font-size: 50px;
+    color: #1a1a1a;
+    text-align: center;
+    margin-top: 300px;
+}
+
+main p strong {
+    padding-right: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query */
+
+@media (max-width: 820px) {
+
+    body {
+        background-size: 820px 1180px;
+    }
+
+    main p {
+        margin-top: 400px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 799px) {
+
+    main p {
+        margin-top: 350px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 477px) {
+
+    body {
+        background-position: right 50% bottom 50%;
+    }
+
+    main p {
+        margin-top: 350px;
+        font-size: 32px;
+    }
+}
