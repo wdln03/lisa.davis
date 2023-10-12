@@ -246,7 +246,7 @@ footer i:hover {
     }
 
     .label img {
-        width: 80px;
+        width: 65px;
         height: 35px;
     }
 
@@ -254,6 +254,7 @@ footer i:hover {
         width: 30px;
         margin-left: 5px;
         margin-right: 5px;
+        top: -13px;
     }
 
     .item {
@@ -277,6 +278,25 @@ footer i:hover {
    #icons a i {
     font-size: 10px;
   }
+
+   footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    footer img {
+        width: 70px;
+        height: 35px;
+        padding-right: 0px;
+        margin-left:0px;
+        margin-right: 10px;
+        align-self: flex-start;
+    }
+    
+    footer i {
+        font-size: 12px;
+        padding-top: 15px;
+    }
 
   footer .copyright {
     font-size: 9px;
