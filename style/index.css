@@ -32,15 +32,15 @@ footer {
     }
 
     main p {
-        margin-top: 400px;
-        font-size: 45px;
+        margin-top: 50%;
+        font-size: 40px;
     }
 }
 
 @media (max-width: 799px) {
 
     main p {
-        margin-top: 350px;
+        margin-top: 50%;
         font-size: 45px;
     }
 }
@@ -52,7 +52,13 @@ footer {
     }
 
     main p {
-        margin-top: 350px;
+        margin-top: 70%;
         font-size: 32px;
     }
+
+    @media (max-width: 375px){
+        main p {
+            margin-top: 60%;
+            font-size: 28px;
+        }
 }
