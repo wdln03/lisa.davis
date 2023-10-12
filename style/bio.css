@@ -190,28 +190,4 @@ footer {
     #quote {
         font-size: 20px;
     }
-
-    footer {
-        position: absolute;
-        bottom: 0;
-    }
-
-    footer img {
-        width: 70px;
-        height: 35px;
-        padding-right: 0px;
-        margin-left:0px;
-        margin-right: 10px;
-        align-self: flex-start;
-    }
-    
-    footer i {
-        font-size: 12px;
-        padding-top: 15px;
-    }
-
-    footer .copyright {
-        font-size: 9px;
-        padding-top: 15px;
-    }
 }
