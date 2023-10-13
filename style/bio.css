@@ -175,7 +175,7 @@ footer {
         width: 150px;
         height: 300px;
         margin-left: 5px;
-        margin-top: 80px;
+        margin-top: 110px;
     }
 
     .texte-bio {
@@ -196,8 +196,17 @@ footer {
         font-size: 17px;
     }
 
-    #quote #quote-3 {
+    #quote-1 {
 	float: left;
-	padding-left: 100px;
+	margin-left: -200px;
+}
+
+    #quote-2 {
+	float: left;
+	margin-left: -120px;
+}
+    #quote-3 {
+	float: right;
+	padding-left: 30px;
 }
 }
