@@ -141,6 +141,27 @@ footer {
     }
 }
 
+@media (max-width: 414px){
+	main div img {
+	width: 200px;
+	height: 350px;
+	margin-left: 5px;
+	margin-top: 80px;
+	}
+}
+
+	.texte-bio p {
+	line-height: 1.2;
+	font-size: 13px;
+	width: 180px;
+	}
+ #quote-1 {
+	float: right;
+	padding-right: 250px;
+ }
+
+}
+
 @media (max-width: 477px) {
     .item {
         margin-right: 10px;
