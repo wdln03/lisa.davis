@@ -83,29 +83,33 @@ footer {
     }
 
     main {
-        margin: 80px 20px 30px 30px;
+        margin: 180px 20px 30px 30px;
     }
 
-    main div img {
-        width: 500px;
-        height: 75vh;
-        margin-left: 20px;
-        margin-top: 30px;
-    }
+ main div img {
+	width: 250px;
+	height: 400px;
+	margin-left: 20px;
+	margin-top: 80px;
+}
 
     .texte-bio h1 {
         font-size: 30px;
     }
 
-    .texte-bio p {
-        line-height: 1.2;
-        font-size: 18px;
-        margin-left: 5px;
-    }
+   .texte-bio p {
+	line-height: 1.2;
+	font-size: 18px;
+	width: 320px;
+}
 
     #quote {
-        font-size: 30px;
+        font-size: 25px;
     }
+	#quote-1 {
+	margin-top: 50px;
+}
+	
 }
 
 @media (max-width: 799px) {
